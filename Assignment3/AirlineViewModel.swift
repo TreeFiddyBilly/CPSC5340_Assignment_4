@@ -9,7 +9,7 @@ import Foundation
 
 class AirlineViewModel : ObservableObject {
     @Published private(set) var AirlineData = [AirlineModel]()
-    private let url = "https://api.aviationstack.com/v1/airlines?limit=200&access_key=070c69e4604b8f80addcd93891e6db88"
+    private let url = "https://api.aviationstack.com/v1/airlines?limit=200&access_key=d8f2ed2acf559aa905bc03bbf60ad229"
     
     
     func fetchData() {
